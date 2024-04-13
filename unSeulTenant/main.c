@@ -66,6 +66,42 @@ void decripter(char *chaine, int taille){
          else if(chaine[i] == '3' && chaine[j] == '6'){
             printf("o");
         }
+        else if(chaine[i]=='1' && chaine[j] == '7'){
+            printf("p");
+        }
+        else if(chaine[i]=='2' && chaine[j] == '7'){
+            printf("q");
+        }
+        else if(chaine[i]=='3' && chaine[j] == '7'){
+            printf("r");
+        }
+        else if(chaine[i]=='4' && chaine[j] == '7'){
+            printf("s");
+        }
+        else if(chaine[i]=='1' && chaine[j] == '8'){
+            printf("t");
+        }
+        else if(chaine[i]=='2' && chaine[j] == '8'){
+            printf("u");
+        }
+        else if(chaine[i]=='3' && chaine[j] == '8'){
+            printf("v");
+        }
+        else if(chaine[i]=='1' && chaine[j] == '9'){
+            printf("w");
+        }
+        else if(chaine[i]=='2' && chaine[j] == '9'){
+            printf("x");
+        }
+        else if(chaine[i]=='3' && chaine[j] == '9'){
+            printf("y");
+        }
+        else if(chaine[i]=='4' && chaine[j] == '9'){
+            printf("z");
+        }
+        else{
+            printf("code non reconu");
+        }
     }
 }
 int main() {
